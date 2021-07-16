@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       React Webcam
       <Webcam ref = {webRef} />
-      <button Onclick = {() => { 
+      <button onClick = {() => { 
       showImage();
     }}> Console </button>
 
